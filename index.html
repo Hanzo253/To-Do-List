@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="styles.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+        <title>To Do List</title>
+    </head>
+    <body>
+        <h1>To-Do-List</h1>
+        <div class="border border-dark d-flex p-4 bd-highlight rounded-lg justify-content-center overflow-auto">
+            <form>
+                <input id="task" autocomplete="off" autofocus placeholder="Enter a new task here" type="text" maxlength="30">
+                <input id="submit" class="btn btn-success" type="submit" value="Add task">
+                <button type="button" id="clear" class="btn btn-danger">Clear all tasks</button>
+                <ul id="tasks"></ul>
+            </form>
+        </div>
+        <script type="text/javascript" src="main.js"></script>
+    </body>
+</html>

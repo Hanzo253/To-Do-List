@@ -1,0 +1,30 @@
+body {
+    background-color: blanchedalmond !important;
+}
+
+h1 {
+    text-align: center;
+    color: darkcyan;
+}
+
+div.border {
+    height: 400px;
+    width: 40%;
+    margin: auto;
+    background-color: lavender;
+    text-align: center;
+}
+
+#checkbox {
+    height: 15px;
+    width: 20%;
+    float: right;
+}
+
+.close:focus {
+    outline: none;
+}
+
+.checked {
+    text-decoration: line-through;
+}
